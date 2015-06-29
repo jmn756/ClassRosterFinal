@@ -73,7 +73,7 @@ class ClassRosterTableViewController: UITableViewController, DetailViewControlle
         cell.customImage.layer.masksToBounds = true;
         cell.customImage.layer.borderWidth = 2
         cell.customImage.layer.borderColor = UIColor.greenColor().CGColor
-    
+        //self.saveToArchive()
     
     return cell
   }
